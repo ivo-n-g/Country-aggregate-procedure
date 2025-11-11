@@ -1,0 +1,4 @@
+CREATE TABLE Continents (
+    continent_id NUMBER PRIMARY KEY,
+    continent_name VARCHAR2(50) NOT NULL
+);
