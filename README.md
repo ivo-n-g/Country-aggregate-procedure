@@ -74,7 +74,7 @@ data is missing or incomplete.
 
 ## Sample PL/SQL Procedure Code
 ```
- DECLARE
+CREATE OR REPLACE PROCEDURE continent_summary_report AS
     -- Record type to store summary data per continent
     TYPE ContinentSummary IS RECORD (
         continent_name VARCHAR2(50),           -- Continent name
