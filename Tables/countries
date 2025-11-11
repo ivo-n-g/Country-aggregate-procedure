@@ -1,0 +1,6 @@
+CREATE TABLE Countries (
+    country_id NUMBER PRIMARY KEY,
+    country_name VARCHAR2(50) NOT NULL,
+    region_id NUMBER NOT NULL,
+    CONSTRAINT fk_region FOREIGN KEY (region_id) REFERENCES Regions(region_id)
+);
