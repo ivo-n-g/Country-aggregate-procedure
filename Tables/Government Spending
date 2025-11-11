@@ -1,0 +1,5 @@
+CREATE TABLE GovernmentSpending (
+    country_id NUMBER,
+    spending_amount NUMBER,
+    CONSTRAINT fk_country_gov FOREIGN KEY (country_id) REFERENCES Countries(country_id)
+);
