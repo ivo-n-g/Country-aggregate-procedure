@@ -1,0 +1,5 @@
+CREATE TABLE QualityOfLife (
+    country_id NUMBER,
+    qol_index NUMBER,
+    CONSTRAINT fk_country_qol FOREIGN KEY (country_id) REFERENCES Countries(country_id)
+);
